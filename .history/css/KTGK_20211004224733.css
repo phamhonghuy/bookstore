@@ -236,17 +236,6 @@ div.item {
     display: block;
     position: relative;
   }
-div.item:hover {
-  animation: Box-item-transform 0.5s;
-  box-shadow: 5px 5px #808080;
-  }
-  @keyframes Box-item-transform{
-    from {  transform:scale(1);}
-    50% {transform:scale(1.05);}
-    to {  transform:scale(1);
-      box-shadow: 5px 5px #808080 ; }
-      
-  }
 div.item:hover > form button {
   animation: Item_Hover 0.5s;
   visibility:visible;
@@ -283,7 +272,32 @@ div.item img {
   color: #808080;
 }
 
+.phantram {
+    color: #fff;
+    font-size: 10px;
+    background: #f00;
+    position: relative;
+    left: 70%;
+    margin-top: -9%;
+    z-index: 1;
+    border-radius: 3px;
+    padding: 2px 5px;
 
+    width: 32px;
+    text-align: center;
+}
+.phantram:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #f00;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
 div.main button.scrollTotop{
   position: fixed;
   right: 1vmax;

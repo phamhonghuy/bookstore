@@ -238,14 +238,12 @@ div.item {
   }
 div.item:hover {
   animation: Box-item-transform 0.5s;
-  box-shadow: 5px 5px #808080;
+   animation-play-state: paused;
   }
-  @keyframes Box-item-transform{
+  @-webkit-keyframes Box-item-transform{
     from {  transform:scale(1);}
-    50% {transform:scale(1.05);}
-    to {  transform:scale(1);
-      box-shadow: 5px 5px #808080 ; }
-      
+    to {  transform:scale(1.1);
+      box-shadow: 5px 5px #808080 ;}
   }
 div.item:hover > form button {
   animation: Item_Hover 0.5s;

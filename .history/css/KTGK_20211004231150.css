@@ -238,7 +238,8 @@ div.item {
   }
 div.item:hover {
   animation: Box-item-transform 0.5s;
-  box-shadow: 5px 5px #808080;
+  
+   
   }
   @keyframes Box-item-transform{
     from {  transform:scale(1);}

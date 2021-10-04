@@ -237,13 +237,13 @@ div.item {
     position: relative;
   }
 div.item:hover {
-  animation: Box-item-transform 0.5s;
-  box-shadow: 5px 5px #808080;
+  animation: Box-item-transform 0.5s ease-in-out 0.1s;
+  
+   
   }
   @keyframes Box-item-transform{
     from {  transform:scale(1);}
-    50% {transform:scale(1.05);}
-    to {  transform:scale(1);
+    to {  transform:scale(1.1);
       box-shadow: 5px 5px #808080 ; }
       
   }

@@ -243,7 +243,7 @@ div.item:hover {
   @keyframes Box-item-transform{
     from {  transform:scale(1);}
     50% {transform:scale(1.05);}
-    to {  transform:scale(1);
+    to {  transform:scale(1.01);
       box-shadow: 5px 5px #808080 ; }
       
   }
