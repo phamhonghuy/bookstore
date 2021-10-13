@@ -247,11 +247,7 @@ div.main-about div.about span {
   text-indent: 20px;
   }
 div.main-about div.about div.img-about {
-  text-align: center;
-  }
-div.main-about div.about div.img-about img {
-  width:100%; 
-
+text-align: center;
   }
 div.item {
     flex: 25%;

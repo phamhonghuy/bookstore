@@ -249,10 +249,6 @@ div.main-about div.about span {
 div.main-about div.about div.img-about {
   text-align: center;
   }
-div.main-about div.about div.img-about img {
-  width:100%; 
-
-  }
 div.item {
     flex: 25%;
     border: 1px dotted rgb(93, 91, 91);

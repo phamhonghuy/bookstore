@@ -250,8 +250,7 @@ div.main-about div.about div.img-about {
   text-align: center;
   }
 div.main-about div.about div.img-about img {
-  width:100%; 
-
+  width:"1170"; height:"878";
   }
 div.item {
     flex: 25%;

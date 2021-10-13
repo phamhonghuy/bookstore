@@ -240,18 +240,7 @@ div.main-about {
     background-color: white;
     padding: 30px;
     flex-wrap: wrap;
-    text-indent: 20px;
-  }
-div.main-about div.about span {
-  margin-left:10px;
-  text-indent: 20px;
-  }
-div.main-about div.about div.img-about {
-  text-align: center;
-  }
-div.main-about div.about div.img-about img {
-  width:100%; 
-
+    te
   }
 div.item {
     flex: 25%;
