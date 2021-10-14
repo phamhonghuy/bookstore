@@ -20,7 +20,7 @@ body {
     height: 25vmax;
     background: #42c9ff;
     color: white;
-    background-image: url(../KTGK/image/Banner.gif);
+    background-image: url(../image/Banner.gif);
     background-repeat: no-repeat;
     background-size:cover;
     min-width: 900px;

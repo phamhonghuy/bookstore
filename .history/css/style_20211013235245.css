@@ -27,7 +27,7 @@ body {
     height: 25vmax;
     background: #42c9ff;
     color: white;
-    background-image: url(../KTGK/image/Banner.gif);
+    background-image: url(../image/Banner.gif);
     background-repeat: no-repeat;
     background-size:cover;
     min-width: 900px;
@@ -387,7 +387,7 @@ justify-content: center;
   height: 15px;
   float: left;
   background-repeat: no-repeat;
-  background-image: url(../KTGK/image/star.png);
+  background-image: url(../image/star.png);
   font-size: 0;
   background-size: 15px;
 }
