@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title> Bookshop: Buy books online. Support local bookstores.</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="shortcut icon" href="./image/Logo.png" />
+    <link rel="shortcut icon" href="./image/Logo.png" /> 
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
   
@@ -38,8 +39,8 @@
   </ul>
   <div class ="login">
       <ul>
-        <li><a href="./login.html">Đăng nhập</a></li>
-        <li><a href="./signup.html"> Đăng ký</a></li>
+        <li><button onclick="document.getElementById('id01').style.display='block'">Đăng nhập</button></li>
+        <li><button onclick="document.getElementById('id02').style.display='block'">Đăng ký </button></li>
       </ul>
   </div>
 </div>
@@ -48,6 +49,68 @@
 
   </div>
   
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+  
+
+    <form class="modal-content animate" action="#">
+      <div class="imgcontainer">
+        <img src="./image/icons-avatar.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Tên đăng nhập</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Mật Khẩu</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <button type="submit">Đăng nhập</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Ghi nhớ tôi
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+  <div id="id02" class="modal">
+    <span onclick="document.getElementById('id02').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+  
+
+    <form class="modal-content animate" action="#">
+      <div class="imgcontainer">
+        <img src="./image/icons-avatar.png" alt="Avatar" class="avatar">
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Tên đăng nhập</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Mật Khẩu</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw"><b>Nhập lại Mật Khẩu</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <button type="submit">Đăng ký</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Ghi nhớ tôi
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
 
   <div class="row">
   <div class="main-produ">
