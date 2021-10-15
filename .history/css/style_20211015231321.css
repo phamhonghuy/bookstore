@@ -514,6 +514,7 @@ animation:scrolltotop 1s ;
 border-radius: 50%;
 transition: width 0.5ss;
 background :rgb(95, 175, 250)
+
 }
 @-webkit-keyframes scrolltotop {
   from{  }

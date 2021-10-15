@@ -514,6 +514,7 @@ animation:scrolltotop 1s ;
 border-radius: 50%;
 transition: width 0.5ss;
 background :rgb(95, 175, 250)
+animation-direction: reverse;
 }
 @-webkit-keyframes scrolltotop {
   from{  }
@@ -550,11 +551,10 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
-  font-weight: bold;
 }
 
 button:hover {
-  background:rgb(95, 175, 250);
+  background:background :rgb(95, 175, 250);
   color: #000;
   border-radius: 5px;
   animation-name: Navbar_Hover;

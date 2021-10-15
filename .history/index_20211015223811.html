@@ -65,6 +65,8 @@
   
         <label for="psw"><b>Mật Khẩu</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
+        <label for="psw"><b>Nhạp lại mật Khẩu</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
   
         <button type="submit">Đăng nhập</button>
         <label>
@@ -78,9 +80,8 @@
       </div>
     </form>
   </div>
-
   <div id="id02" class="modal">
-    <span onclick="document.getElementById('id02').style.display='none'"
+    <span onclick="document.getElementById('id01').style.display='none'"
   class="close" title="Close Modal">&times;</span>
   
     <!-- Modal Content -->
@@ -95,18 +96,15 @@
   
         <label for="psw"><b>Mật Khẩu</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <label for="psw"><b>Nhập lại Mật Khẩu</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
   
-        <button type="submit">Đăng ký</button>
+        <button type="submit">Đăng nhập</button>
         <label>
           <input type="checkbox" checked="checked" name="remember"> Ghi nhớ tôi
         </label>
       </div>
   
       <div class="container" style="background-color:#f1f1f1">
-        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="button" onclick="document.getElementById('id0').style.display='none'" class="cancelbtn">Cancel</button>
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
     </form>
