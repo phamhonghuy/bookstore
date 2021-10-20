@@ -1,0 +1,15 @@
+* {
+    color:rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Helvetica;
+    src: url(/font/helveticaneue.ttf);
+}
+body {
+    width: 1200px;
+    height: 00px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
